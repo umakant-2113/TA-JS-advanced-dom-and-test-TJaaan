@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Popppins',sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    background-color: #F1DEB8;
+}
+::placeholder{
+    font-family: 'Popppins', sans-serif ; 
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header{
+    padding: 1.6rem ;
+    text-align: center;
+    background-color: #000;
+    font-weight: 600;
+    color: #fff;
+}
+.flex-50{
+    flex: 0 1 45%;
+}
+.input-tag{
+    font-size: 2rem;
+}
+section{
+    min-height: 60vh;
+    padding: 4% 9%;
+    .user-card{
+        display: inline-block;
+        width: 20%;
+        padding: 2rem ;
+        background-color: rgb(238,109,82);
+        margin: 1rem;
+        border: 1px solid #000;
+    }
+    p{
+        font-size: 2rem;
+        margin: 1rem 0 ;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
+    input {
+        margin: 1rem 0  ;
+    }
+}
+footer{
+    width: 40%;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 1.4rem;
+    
+    border: 3px solid blue;
+    margin: 0 auto;
+    form{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 60%;
+        min-width: 30rem ;
+        input{
+            margin:  0 0 1.5rem 0;
+            padding: .8rem;
+            display: inline-block;
+            width: 100%;
+            font-size: 2.2rem;
+            text-transform: capitalize;
+        }
+        button{
+            display: inline-block;
+            width: 100%;
+            background-color: #000;
+            padding: .8rem;
+            font-size: 2rem;
+            color: #fff;
+            border: none;
+            &:hover{
+                background-color: green;
+            }
+        }
+    }
+}
