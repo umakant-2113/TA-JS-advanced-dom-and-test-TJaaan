@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Popppins',sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #F1DEB8;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Popppins', sans-serif;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Popppins', sans-serif;
+}
+
+::-ms-input-placeholder {
+  font-family: 'Popppins', sans-serif;
+}
+
+::placeholder {
+  font-family: 'Popppins', sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  padding: 1.6rem;
+  text-align: center;
+  background-color: #000;
+  font-weight: 600;
+  color: #fff;
+}
+
+.flex-50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
+
+.input-tag {
+  font-size: 2rem;
+}
+
+section {
+  min-height: 60vh;
+  padding: 4% 9%;
+}
+
+section .user-card {
+  display: inline-block;
+  width: 20%;
+  padding: 2rem;
+  background-color: #ee6d52;
+  margin: 1rem;
+  border: 1px solid #000;
+}
+
+section p {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+section h2 {
+  font-size: 2.4rem;
+}
+
+section input {
+  margin: 1rem 0;
+}
+
+footer {
+  width: 40%;
+  bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.4rem;
+  border: 3px solid blue;
+  margin: 0 auto;
+}
+
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  min-width: 30rem;
+}
+
+footer form input {
+  margin: 0 0 1.5rem 0;
+  padding: .8rem;
+  display: inline-block;
+  width: 100%;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+
+footer form button {
+  display: inline-block;
+  width: 100%;
+  background-color: #000;
+  padding: .8rem;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+}
+
+footer form button:hover {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
