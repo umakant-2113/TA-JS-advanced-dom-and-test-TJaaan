@@ -59,7 +59,6 @@ test(`getArea 7 to equal 44 `,()=>{
     expect(  getArea(7) ).toMatch(`44`)
 })
 
-
 // negative test
 test(`getCircumfrence 7 to equal 44 `,()=>{
         expect(  getCircumfrence(7) ).toMatch(`44`)
