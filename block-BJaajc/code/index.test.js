@@ -28,7 +28,7 @@ test(`add 7+5 to equal 15`,()=>{
     expect(add(7,5)).toBe(11);
 })
 
-
+// positive test
 test(`fullName raj+kappor match to rajkappor`, ()=>{
     expect(fullName('raj','kappor')).toMatch('rajkappor')
 })
@@ -37,6 +37,7 @@ test(`fullName radha+rajput match to radharajput`,()=>{
     expect(fullName("radha","rajput")).toMatch("radha rajput")
 })
 
+// positive test
 
 test(`isPalindrome palinDrome toBeTruthy palinDrome `,()=>{
     expect( isPalindrome("palinDrome") ).toBeTruthy();
@@ -46,6 +47,8 @@ test(`isPalindrome palindrome toBeTruthy palindrome`,()=>{
     expect(isPalindrome("rajput")).toBeTruthy();
 })
 
+// positive test
+
 test(`getCircumfrence 7 to equal 44 `,()=>{
 expect(  getCircumfrence(7) ).toMatch(`44`)
 })
@@ -53,11 +56,13 @@ expect(  getCircumfrence(7) ).toMatch(`44`)
 test(`getArea 7 to equal 44 `,()=>{
     expect(  getArea(7) ).toMatch(`44`)
     } )
+    
+// negative test
 
-    test(`getCircumfrence 7 to equal 44 `,()=>{
+test(`getCircumfrence 7 to equal 44 `,()=>{
         expect(  getCircumfrence(7) ).toMatch(`44`)
         })
         
-        test(`getArea 7 to equal 44 `,()=>{
+test(`getArea 7 to equal 44 `,()=>{
             expect(  getArea(7) ).toMatch(`44`)
             } )
