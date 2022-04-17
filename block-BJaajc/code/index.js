@@ -1,18 +1,9 @@
-
-
-
-
 function add(a,b){
 return a+b
 }
-
-
-
 function fullName(firstName,lastName){
 return firstName+lastName;
 }
-
-
 function isPalindrome(value){
 if(value==="palinDrome"){
 return true;
