@@ -10,13 +10,16 @@ return true;
 }else{
     return false;
 }
+
 }
 
 function getCircumfrence(radius){
+
     return ` The circumference is ${2*22/7*radius}`  
 }
 
 function getArea(radius){
+    
 return `The area is ${22/7*radius*radius}`
 }
 
